@@ -35,5 +35,18 @@ def using_insert (a,b)
 end
 
 def using_uniq (a)
-  a.flatten
+  a.uniq 
 end
+
+def using_flatten(a)
+  a.flatten
+end 
+
+def using_delete (a,b)
+  a.delete(b)
+end
+
+def using_delete_at (a,b)
+  a.delete(b)
+end
+
