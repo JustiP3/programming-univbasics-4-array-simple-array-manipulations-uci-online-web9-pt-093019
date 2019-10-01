@@ -44,7 +44,7 @@ def using_delete (a,b)
   a.delete(b)
 end
 
-def using_delete_at (a,b)
-  a[b] = nil 
+def using_delete_at (arr,int)
+  arr.delete (int) 
 end
 
